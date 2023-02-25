@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header class="top top_mob center">
+            <section class="top__content top__content_mob">
+                <h1 class="top__title top__title_mob">
+                    Добро пожаловать на мой сайт !
+                </h1>
+                <h2 class="top__text">
+                    Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и
+                    <b>приступай</b>
+                </h2>
+                <div>
+                    <a class="top__button" href="#">Поехали!</a>
+                </div>
+            </section>
+        </header>
+        <section class="middle center">
+            <section class="game-box center">
+                <div class="items">
+                    <div class="item item_1">
+                        <h3 class="name">Игра 1</h3>
+                    </div>
+                    <div class="item item_2">
+                        <h3 class="name">Игра 2</h3>
+                    </div>
+                    <div class="item item_3">
+                        <h3 class="name">Игра 3</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="footer center">
+            <section class="footer__gameplayer-box footer__gameplayer">
+                <section class="footer__content footer__content_mob">
+                    <h1 class="footer__title footer__title_mob">
+                        Времена года!
+                    </h1>
+                    <h2 class="footer__text">
+                        Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он
+                        относится
+                    </h2>
+                    <div>
+                        <a class="footer__button" onclick="month()">Играть!</a>
+                    </div>
+                </section>
+                <div class=" footer__gamepicture footer__gamepicture_month">
+                    <div class="footer__gamepicture_mob">
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="script1.js"></script>
+        <footer class="footer center">
+            <section class="footer__gameplayer-box_words footer__gameplayer">
+                <div class=" footer__gamepicture  footer__gamepicture_words">
+                </div>
+                <section class="footer__content footer__content_words">
+                    <h1 class="footer__title footer__title_mob">
+                        Запомни слова
+                    </h1>
+                    <h2 class="footer__text">
+                        При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+                    </h2>
+                    <div>
+                        <a class="footer__button" onclick="guessNumber()">Играть!</a>
+                    </div>
+                </section>
+                <div class=" footer__newgamepicture">
+                </div>
+            </section>
+        </footer>
+        <script src="script2.js"></script>
+    </main>
+</body>
+</html>
